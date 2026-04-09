@@ -1,0 +1,7 @@
+# FFI binaries are added by the release workflow.
+# In the published module they are real files; in dev they are .gitkeep placeholders.
+bin/**/*.so
+bin/**/*.dylib
+bin/**/*.dll
+
+.DS_Store
